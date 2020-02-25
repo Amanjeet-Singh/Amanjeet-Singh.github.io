@@ -6,7 +6,8 @@
 
 body {
   font-size: 20px;
-  color: #212529;
+  color:white;
+  background-color: black;
   font-family: 'Lora', 'Times New Roman', serif;
 }
 
@@ -30,7 +31,7 @@ h6 {
 }
 
 a {
-  color: #212529;
+  color: white;
   transition: all 0.2s;
 }
 
@@ -40,7 +41,12 @@ a:focus, a:hover {
 
 blockquote {
   font-style: italic;
-  color: #868e96;
+  color: peachpuff;
+  background-color: seagreen;
+  padding: 10px;
+  border-color: white;
+  border-width: 5px;
+  border-style: groove;
 }
 
 .section-heading {
@@ -268,7 +274,7 @@ header.masthead .post-heading .meta a {
 }
 
 .post-preview > a {
-  color: #212529;
+  color: white;
 }
 
 .post-preview > a:focus, .post-preview > a:hover {
@@ -395,17 +401,24 @@ footer .copyright {
 }
 
 .btn-primary {
-  background-color: #0085A1;
-  border-color: #0085A1;
+  color: white;
+  background-color: seagreen;
+  border-color: seagreen;
+  border-width: 5px;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #fff;
-  background-color: #00657b !important;
-  border-color: #00657b !important;
+  color: #0085A1;
+  background-color: white !important;
+  border-color: seagreen !important;
+  border-width: 5px;
 }
 
 .btn-lg {
   font-size: 16px;
   padding: 25px 35px;
+}
+
+.fa-inverse{
+  color: orange;
 }
