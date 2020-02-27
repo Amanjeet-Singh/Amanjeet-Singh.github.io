@@ -12,7 +12,7 @@ body {
 }
 
 hr {
-  background-color: gray;
+  background-color: black;
 }
 
 p {
@@ -41,7 +41,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #0085A1;
+  color: black;
 }
 
 blockquote {
@@ -284,7 +284,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
-  color: #0085A1;
+  color: black;
 }
 
 .post-preview > a > .post-title {
@@ -413,7 +413,7 @@ footer .copyright {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #0085A1;
+  color: black;
   background-color: white !important;
   border-color: seagreen !important;
   border-width: 5px;
@@ -425,5 +425,5 @@ footer .copyright {
 }
 
 .fa-inverse{
-  color: orange;
+  color: seagreen;
 }
