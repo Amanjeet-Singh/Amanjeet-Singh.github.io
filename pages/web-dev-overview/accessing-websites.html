@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Web Dev Overview - What Are Websites?</title>
+  <title>Web Dev Overview - Accessing Websites</title>
 
   <!-- Bootstrap core CSS -->
   <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -62,14 +62,14 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('../../img/what-are-websites-min.jpg')">
+  <header class="masthead" style="background-image: url('../../img/accessing-websites-min.png')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
-            <h1>What Are Websites?</h1>
-            <h2 class="subheading">An explanation of how websites work</h2>
+            <h1>Accessing Websites</h1>
+            <h2 class="subheading">An explanation of how websites are accessed</h2>
           </div>
         </div>
       </div>
@@ -81,13 +81,28 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <p>To access a website, we enter a url, or click on a link in our browser window and are taken to a webpage within seconds. There is a lot going on behind the scenes that makes this happen, and the mere fact that this happens in just a few seconds is a testament to how far techonology has progressed since the days it would take minutes to load a single webapge sometimes. There is an extensive and meticulous process that goes behind the simple action of loading a webpage, but first, we must know what a webpage is.</p>
+          <p>Now that we know what a website, or more specifically, what a webpage is, things are a tiny bit clearer, but we still have a long way to go. These webpages still have to get to the browser somehow, to be displayed on our screens, but how do they get to the browser? Are all the websites of the world stored in our own computers in html files that we can access? or are they being sent to our browser through the internet from somewhere? Where are they being sent from? How are they being sent to us? These questions are vital to understanding how websites are accessed and displayed in our browsers and below I will answer them.</p>
 
-          <h2 class="section-heading">The Webpage</h2>
-            <p>The webpage is what is displayed on our browser when we are taken to a link through a url or hyperlink. A webpage is a file written in HTML, HyperText Markup Language, a markup language, which defines and identifies many elements that are used to structure the website and the content inside of it. When our browser accesses a link, it recieves a file with the extension '.html', commonly known as an html file. The browser then reads the content of this file and arranges the elements of the webpage according to where and how the html file says they should be. (The specifics of how the html language works and shows what is seen on the screen is discussed <a href="#">here</a>). Think of the HTML code as a set of code that tells the browser what it has to display and where, and also, how it should look like. A website is simply a collection of many such webpages that are linked together with each other to form one coherent and universal (usually) experience for the user while they browse through the website.</p>
+            <h2 class="section-heading">The Server</h2>
+                <p>A completed webpage in the form of an html file and all the other files that it needs, is stored in a server. A server exists for the sole purpose of storing information and, in the case of web servers, making it available on the internet. These servers are usually really fast in computing speed and have access to really fast internet connections so that the webpages they contain can be sent to our browser as fast as possible.</p>
+        
+            <h2 class="section-heading">DNS and IP Adresses</h2>
+                <p>A plethora of information is sent and recieved on the internet each day, and among this stream, we have to be sure that we are only accessing the websites we want to go to, and for this, a robust system must be put in place so that each website has a unique identity that can be used to separate it from others. Each server and website has a unique IP(Internet Protocol) address which is used to identify the server and the website. But, we don't type in IP addresses in the browser, we type in URLs, so how can we still access these websites? Well, the IP address of most public websites are connected to domain names, a.k.a the URLs of these webpages. These connections are stored as information in a DNS (Domain Name Server). The DNS is a server which tells the browser what IP address does a domain name correspond to.</p>
 
-            <img class="img-fluid" src="../../img/what-are-websites-1-min.png" alt="">
-            <span class="caption">A html file in the lower half and what the browser would display for the file in top half.</span>
+            <h2 class="section-heading">It All Comes Together!</h2>
+                <p>These are the all the basic elements involved in getting a webpage from a browser to your screen. The process is as follows:
+                    <ol>
+                        <li>User enters a URL into the browser, or clicks on a link which inputs the URL of a website/page automatically</li>
+                        <li>The browser sends this url to a DNS</li>
+                        <li>The DNS checks its records to find which IP address the particular domain name corresponds to and sends this IP address back to the browser</li>
+                        <li>The browser then contacts the server through the IP address, and requests the source code for the website/page it wants to display.</li>
+                        <li>The server sends back source code for the page and all other linked files that are needed for the page to load</li>
+                        <li>Finally, the browser loads the source code and all other files and interprets it, and displays the design and content according to what the source code said, and <i>voila!</i> a webpage is displayed.</li>
+                    </ol>
+                </p>
+
+            <img class="img-fluid" src="../../img/accessing-websites-1-min.jpg" alt="">
+            <span class="caption">A visual explanation of what happends when we load a webpage</span>
 
         </div>
       </div>
@@ -96,7 +111,7 @@
 
   <!-- Pager -->
   <div class="clearfix">
-    <a class="btn btn-primary float-right" href="accessing-websites.html">Next Post &rarr;</a>
+    <a class="btn btn-primary float-right" href="#">Next Post &rarr;</a>
   </div>
 </div>
 </div>
