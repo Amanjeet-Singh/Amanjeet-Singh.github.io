@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Web Dev Overview - Accessing Websites</title>
+  <title>Web Dev Overview - Coding Languages</title>
 
   <!-- Bootstrap core CSS -->
   <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="../..index.html">CIT 82</a>
+      <a class="navbar-brand" href="../../index.html">CIT 82</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -63,14 +63,14 @@
 
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('../../img/accessing-websites-min.png')">
+  <header class="masthead" style="background-image: url('../../img/coding-languages.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
-            <h1>Accessing Websites</h1>
-            <h2 class="subheading">An explanation of how websites are accessed</h2>
+            <h1>Coding Languages Used in Web Development</h1>
+            <h2 class="subheading">A short introduction to the numerous languages used in web development</h2>
           </div>
         </div>
       </div>
@@ -84,27 +84,33 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <p>Now that we know what a website, or more specifically, what a webpage is, things are a tiny bit clearer, but we still have a long way to go. These webpages still have to get to the browser somehow, to be displayed on our screens, but how do they get to the browser? Are all the websites of the world stored in our own computers in html files that we can access? or are they being sent to our browser through the internet from somewhere? Where are they being sent from? How are they being sent to us? These questions are vital to understanding how websites are accessed and displayed in our browsers and below I will answer them.</p>
 
-            <h2 class="section-heading">The Server</h2>
-                <p>A completed webpage in the form of an html file and all the other files that it needs, is stored in a server. A server exists for the sole purpose of storing information and, in the case of web servers, making it available on the internet. These servers are usually really fast in computing speed and have access to really fast internet connections so that the webpages they contain can be sent to our browser as fast as possible.</p>
-        
-            <h2 class="section-heading">DNS and IP Adresses</h2>
-                <p>A plethora of information is sent and recieved on the internet each day, and among this stream, we have to be sure that we are only accessing the websites we want to go to, and for this, a robust system must be put in place so that each website has a unique identity that can be used to separate it from others. Each server and website has a unique IP(Internet Protocol) address which is used to identify the server and the website. But, we don't type in IP addresses in the browser, we type in URLs, so how can we still access these websites? Well, the IP address of most public websites are connected to domain names, a.k.a the URLs of these webpages. These connections are stored as information in a DNS (Domain Name Server). The DNS is a server which tells the browser what IP address does a domain name correspond to.</p>
+          <h2 class="section-heading">Languages for Web Design</h2>
+          <p>There are two languages used in webpage develpoment that define the structure and design of the page itself. As we already know, HTML is a markup language, it does not contain 'logic' elements as used in programming languages. HTML is used to set up the structure of the page, but HTML by itself is not an ideal way to design a webpage, most people don't want to see a webpage with just a structure and text. To design the page as we want, we must also use another language of sorts, known as Cascading Style Sheets, popularly known as CSS. The design is achieved by making a separate file with the extension .css which is linked to the html file. CSS can allow us to design the webpage in various ways by adding colors, divisions, and many other styling elements.</p>
+  
+      <h2 class="section-heading">JavaScript</h2>
+          <p>JavaScript, commonly referred to as js, is a scripting language that goes along with webpages. This programming language runs on the browser itself and is used to create responsive and dynamic interfaces that change based on the device or browser accessing it, and on user input/actions. It is the most popular language used in web development because of the functionality it brings to the webpage structure and design, allowing for many of the new features we see on sites today.</p>
 
-            <h2 class="section-heading">It All Comes Together!</h2>
-                <p>These are the all the basic elements involved in getting a webpage from a browser to your screen. The process is as follows:
-                    <ol>
-                        <li>User enters a URL into the browser, or clicks on a link which inputs the URL of a website/page automatically</li>
-                        <li>The browser sends this url to a DNS</li>
-                        <li>The DNS checks its records to find which IP address the particular domain name corresponds to and sends this IP address back to the browser</li>
-                        <li>The browser then contacts the server through the IP address, and requests the source code for the website/page it wants to display.</li>
-                        <li>The server sends back source code for the page and all other linked files that are needed for the page to load</li>
-                        <li>Finally, the browser loads the source code and all other files and interprets it, and displays the design and content according to what the source code said, and <i>voila!</i> a webpage is displayed.</li>
-                    </ol>
-                </p>
+      <h2 class="section-heading">Server-Side Languages</h2>
+          <p>There are many server-side languages to keep the website functioning and for many of the tasks associated with deploying and maintaining websites. 
+            <ul>
+            <li>The most popular one is node.js. node.js is a server-side language built in JavaScript, thus allowing for easy integration between the JavaScript on the webpage and the one supposed to run on the server.</li> 
+            <li>Another popular server language is PHP which is also an excellent and easy to use language on the server-side.</li> 
+            <li>Python is also another programming language used in web development, although not as popular as the others, it is still used a lot. It can also be paired with frameworks to do front-end coding as well.</li>
+            <li>Ruby is an older language, but it is still considered to be among the discussion of server side languages because of its great functionality and conveniency. Like Python, it can also m</li>
+            </ul>
+          </p>
 
-            <img class="img-fluid" src="../../img/accessing-websites-1-min.jpg" alt="">
-            <span class="caption">A visual explanation of what happends when we load a webpage</span>
+      <h2 class="section-heading">Other Languages</h2>
+          <p>Besides the ones mentioned above, there are many other languages used in web development that aren't as popular or of use in web development but should still be mentioned
+            <ul>
+              <li>ASP.NET is a server-side language created in 2002, although not many, but a few sites still run it.</li>
+              <li>C# takes the object-oriented programming of C++ further and can be used for server-side applications, but it is mainly used in games and application along with the Unity engine.</li>
+              <li>Java, not to be confused with JavaScript, is another programming language that can be used in web development. It is mostly used to develpo apps for Android devices.</li>
+              <li>Swift, is another programming language used to build applications and interfaces in iPhones and iPads. It is used in development and design of iPhone apps and games.</li>
+            </ul>
+          </p>
 
+            <img class="img-fluid" src="../../img/coding-languages-1.png" alt="">
         </div>
       </div>
     </div>
@@ -112,7 +118,7 @@
 
   <!-- Pager -->
   <div class="clearfix">
-    <a class="btn btn-primary float-right" href="coding-languages.html">Next Post &rarr;</a>
+    <a class="btn btn-primary float-right" href="#">Next Post &rarr;</a>
   </div>
 </div>
 </div>
