@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Webpage Design - HTML</title>
+  <title>Webpage Design - CSS</title>
 
   <!-- Bootstrap core CSS -->
   <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -63,14 +63,14 @@
 
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('../../img/html-cheatsheet.jpg')">
+  <header class="masthead" style="background-image: url('../../img/css-cheatsheet.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
-            <h1>HTML</h1>
-            <h2 class="subheading">Explanation of HTML tags and a cheatsheet.</h2>
+            <h1>CSS</h1>
+            <h2 class="subheading">Examples and uses of CSS</h2>
           </div>
         </div>
       </div>
@@ -82,21 +82,21 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <p>Now that we know what elements constitute a basic webpage, we will briefly look at what HTML tags are used to create some of these elements.</p>
+          <p>Displaying HTML code by itself is not a very pretty website. We solve this by writing Cascading Style Sheets, or CSS, so we can style our page. A website of today needs to have CSS styling in order to look good. The difference can be astonishing to look at.</p>
 
-          <h2 class="section-heading">HTML Tags</h2>
-            <p>To define something as an element HTML, it must recieve a tag before and after. The opening tag is <code>&lt;example></code> and the closing tag looks like <code>&lt;/example></code>. The opening tag comes before the content, and the closing tag comes after. These tags can also be given attributes like classes, ids, etc. and we can give a value to these attributes. For example, <code>&lt;example class="exampleClass"></code>, shows us that the element 'example' has a class attribute, and the value of that attribute (or the name of that class in other words,) is 'exampleClass'.</p>
+          <h2 class="section-heading">CSS uses</h2>
+            <p>CSS allows us to change almost anything about an element, from its size, shape, borders, color, to what it does when its viewed on a smaller scree, or when it hovered over, etc. It is the magic by which modern Navbars look the way they do, while structurally being not more than unordered list in our HTML source code. To style any HTML element with CSS, we can either do an inline styling inside the HTML file, or create a new CSS file and link it to our HTML page. The latter is usually the one recommended as it allows us do to much more than inline styles and helps keep code de-cluttered.</p>
             
-            <h2 class="section-heading">HTML Cheatsheet</h2>
-            <p>This video by Traversy Media goes through a lot of different tags and even shows how to make a cheatsheet. It is a great learning resource to understand HTML better.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/UB1O30fR-EE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2 class="section-heading">CSS Syntax</h2>
+            <p>CSS has some syntax rules that we must follow to style elements. First of all, most elements that you are styling need to be clearly declared, with the name of that element/class/id, and then withing a set of curly brackets, the styling statements can be written, but they have to be ended with a semicolon. To declare styling for a HTML element globally (such as styling for all the &lt;p> elements in a page, we only need to write the letter p and fit in the styling in the curly brackets that come after. For a particular, a period '.' must be added before the class name, and for particular ids, a '#' must be added before the id name. This video below by Traversy Media is a great learning resource for CSS.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yfoY53QXEnI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <br>
             <br>
 
             <!-- Pagers -->
             <div class="clearfix">
-            <a class="btn btn-primary float-right" href="css-cheatsheet.html">Next Post &rarr;</a>
-            <a class="btn btn-primary float-left" href="advanced-elements.html">&larr; Previous Post</a>
+            <a class="btn btn-primary float-right" href="bootstrap-cheatsheet.html">Next Post &rarr;</a>
+            <a class="btn btn-primary float-left" href="html-cheatsheet.html">&larr; Previous Post</a>
             </div>
             </div>
             </div>

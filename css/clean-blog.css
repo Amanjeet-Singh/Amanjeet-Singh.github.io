@@ -363,6 +363,10 @@ header.masthead .post-heading .meta a {
   opacity: 0;
 }
 
+code{
+color: darkcyan;
+}
+
 .floating-label-form-group .help-block {
   margin: 15px 0;
 }
